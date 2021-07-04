@@ -6,7 +6,7 @@ import Card from './Card'
 
 function ExpenseItem(props) {
 
-
+ 
   const [title, setTitle] = useState(props.title);
 
   
@@ -20,7 +20,7 @@ function ExpenseItem(props) {
         <h2>{title}</h2>
         <div className='expense-item__price'>${props.amount}</div>
       </div>
-      
+       
     </Card>
   );
 }
